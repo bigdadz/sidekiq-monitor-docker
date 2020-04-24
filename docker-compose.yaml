@@ -1,0 +1,14 @@
+version: '3'
+services:
+  sidekiq-monitor:
+    image: sidekiq-monitor
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    container_name: sidekiq-monitor
+    ports: 
+      - 9292:9292
+    environment:
+      REDIS_URL: redis://redis-url-example/0
+      SIDEKIQ_USERNAME: username
+      SIDEKIQ_PASSWORD: password
