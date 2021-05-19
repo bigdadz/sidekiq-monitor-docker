@@ -2,8 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     connection_pool (2.2.2)
-    nio4r (2.5.2)
-    puma (4.3.5)
+    nio4r (2.5.7)
+    puma (4.3.8)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-protection (2.0.8.1)
